@@ -71,6 +71,11 @@
   justify-content: space-between;
 }
 
+.Df_SA {
+  display: flex;
+  justify-content: space-around;
+}
+
 .DF_AC {
   align-items: center;
 }
