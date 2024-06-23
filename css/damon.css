@@ -64,6 +64,7 @@ body {
 }
 .footer_summary04 {
   display: flex;
+  align-items: center;
 }
 .footer_summary05 {
   display: flex;
@@ -73,3 +74,36 @@ body {
   border-bottom: 1px solid #895c87;
   padding-bottom: 5px;
 }
+
+/* 별 모양 css*/
+.pentagram {
+  display: flex;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  color: red;
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+  border-bottom: 9px solid red;
+  transform: rotate(35deg);
+}
+
+.pentagram::before,
+.pentagram::after {
+  content: "";
+  position: absolute;
+  color: red;
+  left: -13px;
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+  border-bottom: 9px solid red;
+}
+
+.pentagram::before {
+  transform: rotate(71deg);
+}
+
+.pentagram::after {
+  transform: rotate(-71deg);
+}
+/* 별 모양 css*/
