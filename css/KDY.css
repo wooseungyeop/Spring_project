@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+.subtitle-DY a {
+    font-family: 'BMHANNAPro';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color: #bb0303;
+}
+/*.subtitle-DY p:nth-child(){*/
+/*    font-size:23px ;*/
+/*}*/
+
+.actor-Int {
+    font-family: 'MaruBuri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #763535;
+}
+
+.story-Text p{
+    font-family: 'MaruBuri';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #565656;
+
+
+}
+/*     버튼*/
+    .wrapper{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn {
+        background-color: #ba7d7d;
+        padding: 0.5rem 0.5rem;
+        border:0;
+        color: #4e0606;
+        font-family: 'MaruBuri';
+        font-weight: bold;
+        font-size: 20px;
+        cursor:pointer;
+        user-select: none;
+    }
+    .btn.rounded{
+        border-radius: 0.7rem;
+    }
+    button:hover{
+        background-color: hsl(349, 51%, 23%);
+        color: #ffbcbc;
+    }
+    /*button:active{*/
+    /*    background-color: hsl(0, 0%, 32%)*/
+    /*}*/
+
+
+/*사진 위 글씨 호버태그*/
+.box-wrap {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    position: relative;
+    width: 1103px; height: 631px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4)
+}
+.box img {
+    width: 100%;
+}
+
+.box .info {
+    color: #f18a8a;
+    position: absolute; left: 0; bottom: 0;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.box:hover .info {
+    opacity: 2;
+}
+.box .info h3 {
+    font-size: 50px;
+    font-style: inherit;
+    padding-bottom: 0.4em;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.box .info p {
+    font-size: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+
+
+    /*포스터 효과*/
+    .textContainer {
+        padding: 40px 0;
+        text-align: center;
+        font-family: 'GenAI102';
+        position: absolute;
+        font-size: 30px;
+        color: lightyellow;
+        bottom: 0;
+        left: 20%;
+
+    }
+
+    .particleText {
+        text-align: center;
+    }
+
+    .bubbles > .particle {
+
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(243, 194, 33, 0.5);
+        animation: bubbles 3s ease-in infinite;
+        border-radius: 100%;
+    }
+
+    @keyframes bubbles {
+        0% {
+            opacity: 0;
+        }
+        20% {
+            opacity: 1;
+            transform: translate(0, -20%);
+        }
+        100% {
+            opacity: 0;
+            transform: translate(0, -1000%);
+        }
+    }
