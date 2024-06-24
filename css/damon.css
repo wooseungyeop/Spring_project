@@ -3,7 +3,6 @@ body {
 }
 
 .movie {
-  /* padding: 0 200px 200px 200px; */
   padding: 15px;
 }
 
@@ -51,7 +50,10 @@ body {
   padding: 15px 0 0 10px;
   margin-top: 10px;
 }
-
+.footer_summary06 a {
+  margin: 5px;
+  font-size: 20px;
+}
 .footer_summary p {
   margin: 5px;
   font-size: 20px;
@@ -107,3 +109,78 @@ body {
   transform: rotate(-71deg);
 }
 /* 별 모양 css*/
+
+
+/* 아코디언 css */
+*{
+  box-sizing: border-box; 
+}
+  
+.que:first-child{
+    border-top: 1px solid black;
+  }
+  
+.que{
+  font-family: 'BMJUA';
+  position: relative;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid ;
+  
+}
+  
+.que::before{
+  display: inline-block;
+  content: '영화 리뷰 - ';
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.que.on>span{
+  font-weight: bold;
+}
+  
+.anw {
+  
+  font-family: 'BMJUA';
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  font-size: 14px;
+  
+}
+  
+.anw::before {
+  padding: 15px;
+  display: inline-block;
+  content: '';
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  margin: 0 5px;
+}
+
+.arrow-wrap {
+  position: absolute;
+  top:50%; right: 10px;
+  transform: translate(0, -50%);
+}
+
+.que .arrow-top {
+  display: none;
+}
+.que .arrow-bottom {
+  display: block;
+}
+.que.on .arrow-bottom {
+  display: none;
+}
+.que.on .arrow-top {
+  display: block; 
+}
+/* 아코디언 css */
+
+.anw_p{
+  padding-bottom: 10px;
+}
