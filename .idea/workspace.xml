@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83476b6-fb72-4d2f-a6ca-ee9da3942d99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/KDY.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/MaruBuri-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/NanumGothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/nanum-sungsil.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/dayoung/subpageDY.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Elemental.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Elemental.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/damon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/damon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/seungyeop/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/seungyeop/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/class/Board-demo/Spring_project/page/dayoung&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/class/Spring_project&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -66,11 +63,26 @@
       <recent name="C:\class\Board-demo\Spring_project\page" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Spring_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Spring_project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +102,8 @@
       <workItem from="1719189099497" duration="364000" />
       <workItem from="1719205481476" duration="1116000" />
       <workItem from="1719213074091" duration="6921000" />
+      <workItem from="1719399558089" duration="13000" />
+      <workItem from="1719399595087" duration="12000" />
     </task>
     <servers />
   </component>
